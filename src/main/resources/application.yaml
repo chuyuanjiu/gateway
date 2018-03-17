@@ -30,8 +30,9 @@ spring:
         discovery:
           register: false
 
-zuul:
-  routes:
-     api:
-       path: /api/**
-       service-id: consul-miya
+#zuul:
+#  routes:
+#     api:
+#       path: /api/**
+#       #service-id: consul-miya
+#       url: http://localhost:9800

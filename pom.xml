@@ -120,11 +120,11 @@
             <version>${zuul-version}</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
             <version>${spring-cloud-consul-version}</version>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 
