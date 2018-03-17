@@ -1,0 +1,11 @@
+drop table if exists gateway.api_route;
+create table gateway.api_route(
+  ID varchar(32) not null primary key,
+  PATH varchar(255) not null,
+  SERVICE_ID varchar(50),
+  URL varchar(255),
+  RETRYABLE tinyint default 1,
+  ENABLED tinyint default 1,
+  PREFIX varchar(32),
+  STRIP_PREFIX varchar(10)
+)engine=innodb default charset=utf8;
